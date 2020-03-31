@@ -52,3 +52,19 @@
     text-align: center;
     width: auto;
 }
+
+.about{
+    color: #999;
+    cursor: pointer;
+    height: 38px;
+    line-height: 38px;
+    left: 100%;
+    margin-left: -70px;
+    margin-top: -19px;
+    
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    top: 50%;
+    width: 38px;
+}
