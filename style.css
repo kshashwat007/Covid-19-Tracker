@@ -12,7 +12,7 @@
     overflow-y: auto;
     text-align: center;
     text-transform: uppercase;
-	top: 0;
+	top: 60px;
 	width: 128px;
 }
 
@@ -30,6 +30,25 @@
     overflow-y: auto;
     text-align: center;
     text-transform: uppercase;
-	top: 0;
+	top: 60px;
 	width: 128px;
+}
+
+.navbar{
+    background-color: #404040;
+    background-image: url('../images/biohazard.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 70% ;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #777;
+    box-sizing: border-box;
+    color: #aaa;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 16px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    width: auto;
 }
