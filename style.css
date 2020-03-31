@@ -1,0 +1,35 @@
+.box_left_confirmed
+{
+    background-color: #404040;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+	box-sizing: border-box;
+    color: rgb(240, 162, 89);
+	height: 120px;
+	right: 0;
+    padding-top: 34px;
+	position: absolute;
+    overflow-y: auto;
+    text-align: center;
+    text-transform: uppercase;
+	top: 0;
+	width: 128px;
+}
+
+.box_left_death
+{
+    background-color: #404040;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+	box-sizing: border-box;
+    color: rgb(245, 17, 17);
+	height: 120px;
+	right: 128px;
+    padding-top: 34px;
+	position: absolute;
+    overflow-y: auto;
+    text-align: center;
+    text-transform: uppercase;
+	top: 0;
+	width: 128px;
+}
