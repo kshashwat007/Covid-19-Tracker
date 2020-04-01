@@ -61,10 +61,26 @@
     left: 100%;
     margin-left: -70px;
     margin-top: -19px;
-    
     position: absolute;
     text-align: right;
     text-transform: uppercase;
     top: 50%;
     width: 38px;
+}
+
+.footer{
+    background-color: #404040;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+	box-sizing: border-box;
+    color: rgb(255, 255, 255);
+	height: 70px;
+	right: 0;
+    padding-top: 34px;
+	position: absolute;
+    overflow-y: auto;
+    text-align: center;
+    text-transform: uppercase;
+	bottom: 0;
+	width: 200px;
 }
