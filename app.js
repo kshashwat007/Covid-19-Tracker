@@ -4,6 +4,8 @@ var google_chart_data  = [
 
 var total_confirmed = 0
 var total_death = 0
+var total_active = 0
+var total_recovered = 0
 
 fetch("https://corona.lmao.ninja/countries")
     .then(response => response.json())
@@ -27,10 +29,14 @@ fetch("https://corona.lmao.ninja/countries")
 
             total_confirmed += data[country]['cases']
             total_death += data[country]['deaths']
+            total_active += data[country]['active']
+            total_recovered += data[country]['recovered']
         }
 
         document.getElementById('box_total_confirmed').innerHTML = total_confirmed
         document.getElementById('box_total_death').innerHTML = total_death
+        document.getElementById('box_total_active').innerHTML = total_active
+        document.getElementById('box_total_recovered').innerHTML = total_recovered
 
         google.charts.setOnLoadCallback(drawRegionsMap);
     })
